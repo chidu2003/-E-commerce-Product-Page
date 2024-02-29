@@ -1,0 +1,83 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif; /* Set the default font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+header {
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    text-align: center; /* Center-align text */
+    padding: 20px 0; /* Add padding to top and bottom */
+}
+
+main {
+    padding: 20px;
+}
+
+/* Product section styles */
+.product {
+    display: flex;
+    align-items: center;
+}
+
+/* Product image styles */
+.product img {
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+.product-info {
+    flex-grow: 1;
+}
+
+/* Call-to-action button styles */
+.cta-btn, .buy-now-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+    }
+    .product img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Additional style for Rupee symbol */
+.rupee-symbol {
+    font-family: Arial, sans-serif; /* Ensure the font supports the Rupee symbol */
+}
+
